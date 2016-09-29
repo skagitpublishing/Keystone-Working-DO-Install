@@ -8,8 +8,7 @@ keystone.pre('render', middleware.flashMessages);
 
 // Import Route Controllers
 var routes = {
-  views: importRoutes('./views'),
-  api: importRoutes('./api')      // ADD THIS LINE TOO!
+  views: importRoutes('./views')
 };
 
 // Setup Route Bindings
